@@ -299,6 +299,7 @@ class GeneticAlgorithm:
 
         return population
 
+    #crossover
     def _crossover_schedule(self, schedule1, schedule2):
         self.is_not_used()
         crossover_schedule = Schedule().initialize()
